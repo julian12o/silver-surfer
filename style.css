@@ -1,6 +1,6 @@
 @font-face {
-    font-family: sleek;
-    src: url(Punk_typewriter.otf);
+    font-family: typewriter;
+    src: url("OldNewspaperTypes.ttf");
 }
 body {
   background-image: linear-gradient(#444444, #ffffff);
@@ -8,13 +8,25 @@ body {
 h1{
 text-align: center;
 color: #000000 ;
-font-family: sleek;
+font-family: typewriter;
 font-size: 3rem;
 letter-spacing: 0.5rem;
 text-transform: uppercase;
 text-shadow: 4px, 4px, #ffffff;
 -webkit-text-stroke: 1px #ffffff ;
+
 }
+.block-element {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  background-color: #d6d6d6;
+
+}
+button{
+  text-align: center;
+}
+
 img{
   display: block;
   margin: auto;
@@ -22,7 +34,7 @@ img{
 }
 p{
 text-align: center;
-font-family: sleek;
+font-family: typewriter;
 letter-spacing: 0.2rem;
 color: #000000;
 font-size: xx-large;
