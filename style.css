@@ -1,0 +1,41 @@
+@font-face {
+    font-family: sleek;
+    src: url(Punk_typewriter.otf);
+}
+body {
+  background-image: linear-gradient(#444444, #ffffff);
+}
+h1{
+text-align: center;
+color: #000000 ;
+font-family: sleek;
+font-size: 3rem;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+text-shadow: 4px, 4px, #ffffff;
+-webkit-text-stroke: 1px #ffffff ;
+}
+img{
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+p{
+text-align: center;
+font-family: sleek;
+letter-spacing: 0.2rem;
+color: #000000;
+font-size: xx-large;
+-webkit-text-stroke: 1px #ffffff ;
+}
+.custom-silver-color {
+  color: #ffffff;
+}
+
+h2{
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-text-stroke: 2px #000000;
+  font-size: 3rem;
+  
+}
