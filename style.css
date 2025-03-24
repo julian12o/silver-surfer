@@ -51,3 +51,7 @@ h2{
   font-size: 3rem;
   
 }
+#paragraph {
+  font-style: italic;
+  color: #333333;
+}
